@@ -14,7 +14,7 @@ const Category = ({navigation, route}) => {
   const selectedCategory = useSelector(state => state.categories.selectedCategory);
   const handleSelectCategory = (product) => {
     dispatch(selectProduct(product.id));
-    navigation.navigate('Product', { name: product.name })
+    navigation.push('Product')
   }
   const renderItem = ({ item }) => <CategoryProducts item={item} onSelected={handleSelectCategory} />
 

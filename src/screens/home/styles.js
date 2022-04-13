@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     textAlign: 'center',
-    marginVertical: 50,
+    marginVertical: 20,
     fontFamily: 'OpenSans-Bold',
     color: '#212121',
     marginBottom: 20,
