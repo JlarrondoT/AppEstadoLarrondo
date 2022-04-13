@@ -49,8 +49,7 @@ const BuyingStack = () => {
 const CartStack = () => {
     return (
         <CartStackNavigation.Navigator
-            initialRouteName="Cart"
-            screenOptions={ screenOpt }>
+            initialRouteName="Cart" screenOptions={{ headerShown: false }}>
             <CartStackNavigation.Screen name='Cart' component={Cart} />
         </CartStackNavigation.Navigator>
     )
